@@ -18,6 +18,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".NewActivity"></activity>
+        <activity android:name=".FilterButton"></activity>
     </application>
 
 </manifest>

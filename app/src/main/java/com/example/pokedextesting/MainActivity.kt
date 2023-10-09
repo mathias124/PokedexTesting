@@ -17,6 +17,11 @@ class MainActivity : AppCompatActivity() {
         buttonClick.setOnClickListener {
             val intent = Intent(this, NewActivity::class.java)
             startActivity(intent)
+}
+            val filterButtonClick = findViewById<Button>(R.id.filterbutton_click)
+            filterButtonClick.setOnClickListener {
+                val intentFilter = Intent(this, FilterButton::class.java)
+                startActivity(intentFilter)
+            }
         }
     }
-}

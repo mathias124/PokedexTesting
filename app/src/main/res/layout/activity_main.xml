@@ -3,15 +3,25 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="top"
+    android:layout_gravity="center_horizontal"
     tools:context=".MainActivity.">
 
     <Button
         android:id="@+id/button_click"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
         android:text="🔍" />
+
+    <Button
+        android:id="@+id/filterbutton_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:text="filter" />
 
 </LinearLayout>
