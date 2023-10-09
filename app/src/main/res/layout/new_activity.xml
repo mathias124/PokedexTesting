@@ -12,7 +12,7 @@
         android:layout_width="80dp"
         android:layout_height="40dp"
         android:gravity="center"
-        android:text="Get Garfielded!"
+        android:text="Get Kachowed!"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
     <ImageView

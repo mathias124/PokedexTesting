@@ -12,14 +12,14 @@
         android:layout_width="80dp"
         android:layout_height="40dp"
         android:gravity="center"
-        android:text="Get Garfielded!"
+        android:text="Get garfielded!"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
     <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="0dp"
-        android:layout_height="120dp"
+        android:id="@+id/garfield"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@drawable/gar" />
 
 </LinearLayout>
